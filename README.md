@@ -73,6 +73,10 @@ dataSet.find()
 ## Requêtes simple
 
 
+- Comment mettre a jour un document ?
+
+
+
 
 
 
