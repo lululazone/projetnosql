@@ -10,6 +10,7 @@ Projet de NoSQL avec Lucas Dulin à Ynov School Toulouse
 - Création de la collection
 - Requêtes simple
 - Supression
+- Recherche avancées
 
 
 
@@ -47,7 +48,7 @@ Projet de NoSQL avec Lucas Dulin à Ynov School Toulouse
 
 ## Création de la collection
 
-- Comment créer une collection ??????? UWU
+- Comment créer une collection ??
 
 ```
 db.createCollection("dataSet")
@@ -421,6 +422,10 @@ db.dataSet.deleteOne({"watlev":"always dry"})
 db.dataSet.deleteMany({"watlev":"always dry"})
 
 ```
+
+# Recherche avancée
+
+## 
 
 
 
