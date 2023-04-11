@@ -425,7 +425,9 @@ db.dataSet.deleteMany({"watlev":"always dry"})
 
 # Recherche avancée
 
-## 
+## Exemple d'utilisation des requêtes avec un projet angular
+
+- On affiche les points de tout les vaisseaux sur une carte.
 
 
 
