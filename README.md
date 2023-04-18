@@ -429,6 +429,23 @@ db.dataSet.deleteMany({"watlev":"always dry"})
 
 - On affiche les points de tout les vaisseaux sur une carte.
 
+### Comment compiler le projet
+
+- Cloner le repo
+- Importer le dataset dans votre bdd nommée local, la collection doit s'appeler dataSet. (localhost:27017)
+- Installer tout les composants nécessaires (pip,npm...)
+- Executer le script python
+- Executer le front
+
+### Résultats 
+
+- Le résultat sur le front devrait ressembler à ceci: 
+
+<img src="https://ibb.co/crq4QfD"
+     alt="resultat"
+     style="float: left; margin-right: 10px;" />
+
+
 
 
 
