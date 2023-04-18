@@ -441,9 +441,7 @@ db.dataSet.deleteMany({"watlev":"always dry"})
 
 - Le résultat sur le front devrait ressembler à ceci: 
 
-<img src="https://ibb.co/crq4QfD"
-     alt="resultat"
-     style="float: left; margin-right: 10px;" />
+<a href="https://ibb.co/crq4QfD"><img src="https://i.ibb.co/RD8Rcrz/nosql.png" alt="nosql" border="0"></a>
 
 
 
