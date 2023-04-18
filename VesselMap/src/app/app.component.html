@@ -1,2 +1,78 @@
-<div #map class="map"></div>
+<tui-root>
+<div #map class="map" style="display: inline-flex">
+  <div style="margin: 2%">
+    <label>Nombre d'entités: {{nbEntitie}}</label>
+    <button tuiButton style="margin: 10%" (click)="submit()">Submit</button>
+    <div>
+      <h3>Quasou</h3>
+      <form [formGroup]="quasouForm">
+        <tui-checkbox-labeled formControlName="du">
+          <div class="example">Depth unknown</div>
+        </tui-checkbox-labeled>
 
+        <tui-checkbox-labeled
+          formControlName="ldk"
+          class="tui-space_top-3"
+        >
+          <div class="example">Least depth known</div>
+        </tui-checkbox-labeled>
+      </form>
+      <h3>Water Lever</h3>
+      <form [formGroup]="watlevForm">
+        <tui-checkbox-labeled formControlName="sub">
+          <div class="example">Submerged</div>
+        </tui-checkbox-labeled>
+
+        <tui-checkbox-labeled
+          formControlName="dry"
+          class="tui-space_top-3"
+        >
+          <div class="example">Dry</div>
+        </tui-checkbox-labeled>
+        <tui-checkbox-labeled
+          formControlName="cover"
+          class="tui-space_top-3"
+        >
+          <div class="example">Cover</div>
+        </tui-checkbox-labeled>
+        <tui-checkbox-labeled
+          formControlName="partly_submerged"
+          class="tui-space_top-3"
+        >
+          <div class="example">Partly Submerged</div>
+        </tui-checkbox-labeled>
+      </form>
+      <h3>Wrecks type</h3>
+      <form [formGroup]="featuretypeForm">
+        <tui-checkbox-labeled formControlName="subdangerous">
+          <div class="example">Submerged and dangerous</div>
+        </tui-checkbox-labeled>
+
+        <tui-checkbox-labeled
+          formControlName="visible"
+          class="tui-space_top-3"
+        >
+          <div class="example">Visible</div>
+        </tui-checkbox-labeled>
+        <tui-checkbox-labeled
+          formControlName="subnondangerous"
+          class="tui-space_top-3"
+        >
+          <div class="example">Submerged Non Dangerous</div>
+        </tui-checkbox-labeled>
+        <tui-checkbox-labeled
+          formControlName="distribute"
+          class="tui-space_top-3"
+        >
+          <div class="example">Distributed remains of wrecks</div>
+        </tui-checkbox-labeled>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+</tui-root>
